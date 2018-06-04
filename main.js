@@ -1,8 +1,15 @@
 // Use JavaScript to obtain a reference to the first article header and change its text with textContent property to "Welcome the {insert your name here} blog"
 
-const article = document.querySelector(".article__header").textContent = "Welcome to Adelaide's Blog"
+// const article = document.querySelector(".article__header").textContent = "Welcome to Adelaide's Blog"
 
-console.log(article)
+// console.log("Did this work?", article)
+
+const article = document.querySelector(".article__header")
+    console.log("to see", article);
+
+    article.textContent = "Welcome to Adelaide's Blog";
+    
+
 
 
 
@@ -13,4 +20,6 @@ for (let i = 0; i < articleAll.length; i++){
     articleAll[i].classList.add("important");
     console.log("add in important", articleAll[i].classList);
 }
+
+
 
