@@ -9,7 +9,16 @@ const article = document.querySelector(".article__header")
 
     article.textContent = "Welcome to Adelaide's Blog";
     
+//Jisie's code________________________________________________________________________________
+const myName = "Jisie"
 
+const articleHeader = documet.querySelector(".article__header")
+articleHeader.textContent = `Welcome the ${myName}`
+
+const articleHeader = document.querySelectorAll(".article__header")
+
+for (let i = 0; i < articleHeader.length; i++)
+    articleHeader[i].classList.add("important")
 
 
 
